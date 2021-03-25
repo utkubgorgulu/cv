@@ -1,4 +1,4 @@
-var randomNumber1 = Math.floor(Math.random() * 2) + 1; //1-6
+var randomNumber1 = Math.floor(Math.random() * 3) + 1; //1-6
 
 var randomDiceImage = "sila" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
@@ -14,6 +14,6 @@ if (randomNumber1 === 1) {
 else if (randomNumber1 === 2) {
   document.querySelector("h1").innerHTML = "Aç"
 }
-else {
-  document.querySelector("h1").innerHTML = "Uykulu"
+else if (randomNumber1 === 3) {
+  document.querySelector("h1").innerHTML = "Arabalı"
 }
