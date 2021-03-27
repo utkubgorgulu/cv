@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor(Math.random() * 38) + 1;
 
-var randomDiceImage = "sila" + randomNumber1 + ".jpg";
+var randomDiceImage = "sila" + randomNumber1 + ".png";
 
 var randomImageSource = "images/" + randomDiceImage;
 
